@@ -1,0 +1,88 @@
+#root {
+  width: 100%;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.banner-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  gap: 30px;
+  background-color: #00274C;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.title {
+  color: #FFCB05;
+}
+
+.logo {
+  height: 3em;
+  width: 3em;
+  padding: 1em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #00274C);
+}
+
+.inputField {
+  flex-grow: 1;
+  padding-left: 20px;
+  background: white;
+  height: 40px;
+  color: black;
+  border-radius: 15px 15px 15px 15px;
+  border-color: #FFCB05;
+}
+
+.fa-gear {
+  font-size: 1.4em;
+  color: #FFCB05;
+}
+
+.fa-user {
+  font-size: 1.4em;
+  color: #FFCB05;
+}
+
+.fa-shoppingCart {
+  font-size: 2em;
+  color: #FFCB05;
+}
+
+.flex-item-1 {
+  flex-grow: 0;
+}
+
+.flex-item-2 {
+  flex-grow: 0;
+}
+
+.inputField.flex-item-3 {
+  flex-grow: 1;
+}
+
+.flex-item-4 {
+  flex-grow: 0;
+}
+
+.flex-item-5 {
+  flex-grow: 0;
+}
+
+.flex-item-6 {
+  flex-grow: 0;
+}
+
+.card {
+  padding: 2em;
+}
